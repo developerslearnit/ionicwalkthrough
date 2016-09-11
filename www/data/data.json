@@ -1,0 +1,37 @@
+{
+    "pages":[
+       {
+        "backgroundColor":"#387ef5",
+        "image": "img/page1.png",
+        "title": "Photo Circle",
+        "subtitle": "Choose your favourite photo cirlce",
+        "titleColor":"#fc5241",
+        "subtitleColor":""
+      },
+      {
+        "backgroundColor":"#e82f2d",
+        "image": "img/page2.png",
+        "title": "Side Menu",
+        "subtitle": "Simple but well styled side menu.",
+        "titleColor":"#fc5241",
+        "subtitleColor":""
+
+      },
+      {
+        "backgroundColor":"#2fc74d",
+        "image": "img/page3.png",
+        "title": "Photo feeds",
+        "subtitle": "Beautiful ionic image card component.",
+        "titleColor":"#fc5241",
+        "subtitleColor":""
+      },
+      {
+        "backgroundColor": "#fdbf09",
+        "image": "img/page4.png",
+        "title": "Profile Page",
+        "subtitle": "Nice mobile profile page",
+        "titleColor":"#fc5241",
+        "subtitleColor":""
+      } 
+    ]
+}

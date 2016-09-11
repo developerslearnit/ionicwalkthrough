@@ -1,0 +1,67 @@
+.walkpagetwo {
+
+background: #f5ebea;
+
+.redbg{
+    background: #fc5241;
+    position: absolute;
+    bottom:0;
+    height: 45%;
+    width: 100%;
+}
+
+.skip{
+    position: absolute;
+    bottom:0;
+}
+
+     ion-slides{
+        height: 100% !important;
+
+        .swiper-wrapper{
+            ion-slide{    
+
+                  h2.slide-title{
+                            font-size: 3vh;
+                            text-transform: uppercase;
+                            color:#fc5241;
+                            margin-top: 60px;
+                            
+                        }
+
+                        p.desc{
+                            color:#666;
+                            font-size: 2vh;
+                            
+                        }
+
+                .img-wrap{
+                    padding:30px;
+                    background:#fff !important;
+                    width:80%;
+                    box-shadow: 0 14px 28px #000, 0 10px 10px #111;
+                    
+                    margin-right: auto;
+                    margin-left:auto;
+                    margin-bottom: 60px;
+                    .slide-image{
+                         width: 75%;
+                         
+                        }   
+
+                      
+
+                    } 
+                
+            }
+        }//End swiper-wrapper
+
+        .swiper-pagination{
+            // background:rgba(0,0,0,0.5);
+            height: 50px;
+            bottom: 0 !important;
+            padding-top:25px;
+        }//swiper-pagination
+
+        }
+}

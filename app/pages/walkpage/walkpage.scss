@@ -1,0 +1,72 @@
+.walkpage {
+
+       ion-slides{
+        height: 100% !important;
+
+        .swiper-wrapper{
+            ion-slide{      
+                .slide-zoom{
+                    margin-top:150px;
+
+                    .slidecaption{
+                            width: 100%;
+                            background:rgba(0,0,0,0.9);
+                            position: absolute;
+                            top:40px;
+                            text-align: center;
+                            top:0;
+                            p{
+                                color:#fff;
+                            }
+                    }
+
+                   
+
+                    .slide-image{
+                     width: 60%; 
+                     height: 75%;
+                        } 
+                }
+                     
+
+                
+                
+
+                
+            }
+        }//End swiper-wrapper
+
+        .swiper-pagination{
+            background:rgba(0,0,0,0.5);
+            height: 50px;
+            bottom: 0 !important;
+            padding-top:15px;
+        }//swiper-pagination
+
+        }
+
+
+        .prev-button, .skip-button,.next-button,.start-button{
+            color:#fff !important;
+            position: absolute;
+            z-index: 999999 !important;
+            bottom:0 !important;  
+            min-height: 37px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 0;
+            font-size: 16px;
+            line-height: 32px;
+        }
+
+        .prev-button .icon,.next-button .icon{
+            font-size: 11px !important;
+            font-weight: 200;
+            }
+
+            .next-button,.start-button{
+            right: 3px;
+            }
+
+
+}

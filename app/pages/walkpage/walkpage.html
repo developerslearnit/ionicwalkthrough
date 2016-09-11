@@ -1,0 +1,16 @@
+<ion-content class="walkpage">
+  <ion-slides #tourSlide [options]="{pager: true}" (ionWillChange)="onSlideChangeStart($event)">
+    <ion-slide *ngFor="let slide of slidePages" [ngStyle]="{'background-color': slide.backgroundColor}">
+    
+        <img [src]="slide.image" class="slide-image" />     
+        <div class="slidecaption">
+        <h2 class="slide-title" [ngStyle]="{'color':slide.titleColor}" [innerHTML]="slide.title"></h2>
+        <p class="subtitle" [innerHTML]="slide.subtitle"></p>
+     </div>
+    </ion-slide>
+  </ion-slides>
+  <button (click)="movePrevious()" class="button button-clear prev-button" *ngIf="!isFirstPage">Prev</button>
+  <button class="button button-clear skip-button" *ngIf="isFirstPage">Skip</button>
+  <button (click)="moveNext()" class="button button-clear next-button" *ngIf="!isLastPage">Next</button>
+  <button (click)="startApp()" class="button button-clear start-button" *ngIf="isLastPage">Start</button>
+</ion-content>

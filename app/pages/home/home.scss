@@ -1,0 +1,33 @@
+.home {
+
+    background: #ededed;
+    //padding:40px;
+    .wrap{
+        padding:20px 7px;
+    }
+   
+
+    ion-col{
+        flex: 0 48%;
+        max-width: 48%;
+        margin: 1%;
+        background:#fff;
+        //border-top:5px solid #5e5e5e;
+        //border-radius:5px;
+
+        h2,p{
+            text-align: center;
+        }
+        
+        p{
+           color:#999;
+            font-size: 6vh;
+            margin: 0;
+        }
+
+        h2{
+            color:#555;
+            margin-top:7px;
+        }
+    }
+}
