@@ -33,7 +33,8 @@ export class WalkpagetwoPage {
     // }
   }
 
-  startApp() {    
+ 
+  beginApp(){
     this.navCtrl.push(HomePage);
   }
 

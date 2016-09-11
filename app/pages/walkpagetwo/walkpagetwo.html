@@ -1,5 +1,6 @@
 <ion-content class="walkpagetwo">
   
+
   <ion-slides #tourSlideTwo [options]="{pager: true}" (ionWillChange)="onSlideChangeStart($event)">
     <ion-slide *ngFor="let slide of slidePages">
       <h2 class="slide-title" [innerHTML]="slide.title"></h2>
@@ -9,9 +10,12 @@
       </div>
     </ion-slide>
   </ion-slides>
-
-  <div class="redbg">
 <!--<button full (click)="startApp()" *ngIf="isLastPage" class="skip">Begin</button>-->
-  </div>
+  <div  class="redbg">
+ 
 
+  </div>
+  <button full *ngIf="isLastPage" (click)="beginApp()">
+Start App
+    </button>
 </ion-content>
